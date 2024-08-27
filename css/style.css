@@ -875,10 +875,112 @@ section {
 .subscribe-button:hover {
   background-color: #008FCC; 
 }
+.aboutheading{
+  font-size: 3.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+#aboutsecondsection p{
+  text-transform: justify;
+}
+
+#overview{
+  background: url('../images/overview.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.vismis {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.innervismis {
+  margin-top: 5rem;
+  border: 5px solid #ffcb05;
+  background: #291770;
+}
+.innervismis .discription {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+}
+
+.innervismis img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.innervismis b{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.mitlestoneheading{
+  border: 3px solid var(--primary-color);
+  padding: 5rem 2rem !important;
+  position: relative;
+}
+.milestoneheadimage {
+  position: absolute;
+  bottom: -14%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto; 
+  height: auto; 
+  z-index: 1;
+}
+.secondsection{
+  padding: 8rem;
+  padding-right: 0px;
+  border-left: 1.5px solid var(--primary-color);
+}
+.firstsection{
+  padding: 8rem;
+  padding-left: 0px;
+  border-right: 1.5px solid var(--primary-color);
+
+}
+.milestoneyearscontainer img{
+  width: 100%;
+}
+ .year{
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 7.2rem;
+  color: var(--primary-color);
+}
+
+.milestoneyearsection {
+  position: relative;
+}
+
+.timelineyearicon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  width: auto !important; 
+  height: auto; 
+}
+
+.milestoneheadimage2 {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto !important; 
+  height: auto; 
+  z-index: 1;
+}
+
+
+
+
 
 /*************************************responsive website layout start  ***************************************/
-
-
 
  /* Small screens, such as smartphones / */
 @media (max-width: 767px) {
@@ -1021,6 +1123,38 @@ section {
       .newsletter-container{
         width: 100%;
       }
+      .postfooter p{
+        font-size: 1.3rem;
+      }
+      #slider1 img{
+        height: auto;
+      }
+      .vismis {
+        flex-direction: column;
+    }
+    .milestoneheadimage{
+      bottom: -8%;
+      width: 27px;
+    }
+    .milestoneheadimage2{
+      width: 27px !important;
+    }
+    .timelineyearicon{
+      width: 50px !important;
+    }
+  .firstsection {
+    padding: 2.5rem;
+  }
+  .secondsection{
+    padding: 2.5rem;
+  }
+  .imagesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
 
 }
 
@@ -1083,6 +1217,9 @@ section {
         .newsletter-container{
           width: 100%;
         }
+        .innervismis {
+          width: 49%;
+        }
 }
 
 /* / Tablets in landscape mode and small desktops / */
@@ -1099,7 +1236,9 @@ section {
       .mobileMenu{
         display: none;
       }
-      
+      .innervismis {
+        width: 49%;
+      }
       
 }
 /* / Standard desktops and laptops / */
@@ -1115,7 +1254,9 @@ section {
      .mobileMenu{
       display: none;
     }
-
+    .innervismis {
+      width: 49%;
+    }
 }
 /* / Large screens and high-resolution displays / */
 @media (min-width: 1920px) {
@@ -1144,5 +1285,18 @@ section {
     #section2 .owl-carousel .item {
       border: 1px solid #939598;
     }
+    .innervismis {
+      width: 49%;
+    }
+
 
 }
+
+/********** Small mobiles ****************/
+@media (max-width: 368px) {
+  .smalldevice{
+    width: 80%;
+  }
+}
+
+
