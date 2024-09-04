@@ -1213,6 +1213,29 @@ section {
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
+#coumputercourse2{
+  background: url('../images/coumputercourse2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#tailoring{
+  background: url('../images/tailoring.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+#beautytraining{
+  background: url('../images/beautytraining.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+#mobiletraining{
+  background: url('../images/mobiletraining.jpg');
+  background-position: center center;
+  background-size: cover;
+}
 
 
 

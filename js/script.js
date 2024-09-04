@@ -54,6 +54,9 @@ $(document).ready(function() {
   
 
   $('.rectangle').click(function(){
+    if ($(this).hasClass('active-rectangle')) {
+        return; 
+    }
     var selectedId = $(this).data('id');
     $('.rectangle').removeClass('active-rectangle');
     $(this).addClass('active-rectangle');
