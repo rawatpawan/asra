@@ -213,7 +213,7 @@ section {
 }
 
 .belowheader ul li a:hover{
-  color: var(--primary-color);
+  color:#baa9ff;
 }
 
 
@@ -975,8 +975,244 @@ section {
   height: auto; 
   z-index: 1;
 }
+.active{
+  color: #baa9ff;
+}
+
+#impactinvolve{
+  background: url('../images/impactinvolve.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+#careerForm{
+  background: #f1f2f2;
+}
+
+#careerForm input{
+  background: #f1f2f2;
+    border: 0px;
+    border-bottom: 1px solid #bbbbbb;
+    border-radius: 0px;
+    padding-bottom: 1.5rem;
+}
+
+#careerForm input::placeholder {
+  color: #000000;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  font-style: italic;
+}
 
 
+#careerForm .upload-container p {
+  font-size: 1.9rem;
+  color: #000;
+  font-weight: 500;
+  font-family: 'Montserrat Bold', sans-serif;
+  margin-bottom: 10px;
+}
+
+#careerForm .file-input {
+  display: none; /* Hide the actual file input */
+}
+
+#careerForm .custom-file-label {
+  display: inline-flex;
+  align-items: center;
+  background-color: #291770;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#careerForm .custom-file-label .icon {
+  margin-right: 10px;
+
+}
+
+#careerForm .custom-file-label:hover {
+  background-color: #1e1355;
+}
+
+#careerForm  #sub{
+    padding: 10px 40px;
+    border-radius: 50px;
+    background: var(--primary-button) !important;
+    color: #ffffff;
+    font-size: 1.731rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+
+}
+
+.what-we-do-points{
+  background: var(--primary-color);
+  border: 5px solid #ffcb05;
+  padding: 3rem 15rem;
+}
+.what-we-do-points h3{
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffcb05;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Bold', sans-serif;
+  line-height: 150%;
+}
+.what-we-do-points ul{
+  padding: 0px;
+  font-size: 1.9rem;
+  color: #fff;
+}
+.what-we-do-points li{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 1rem 0px;
+  display: flex;
+  align-items: center;
+
+}
+.what-we-do-points li img{
+  height: 100%;
+}
+
+#hindisection{
+  background: #f1f2f2;
+}
+#hindisection h3{
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#hindisection .title{
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight:700;
+  margin-bottom: 0px;
+  margin-top: 3rem;
+}
+
+#hindisection .desc{
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight:700;
+}
+.online-promo{
+  font-size: 4rem;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.rectangleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  width: 100%;
+}
+
+.rectangleDiv li {
+  flex: 1;
+  max-width: 25%; 
+  padding: 3rem 2rem;
+  text-align: center; 
+  box-sizing: border-box; 
+}
+
+.rectangle {
+  background: #000000;
+}
+.rectangle:hover {
+  background: #ffcb05;
+}
+.rectangle:hover a {
+  color: #000000;
+}
+.rectangleDiv li {
+  border-left: 0.1px solid #ffcb05;
+}
+.rectangleDiv li:hover{
+  cursor: pointer;
+  border-left: 0.1px solid #000;
+
+}
+.rectangle a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  display: block; /* Ensure the link takes up the full height and width of the li */
+}
+
+.active-rectangle{
+  background: #ffcb05;
+  color: #000;
+}
+
+#coumputercourse{
+  background: url('../images/coumputercourse.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.course-grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  padding: 20px; 
+}
+
+.course-grid-item {
+  background: var(--primary-color);
+  border: 5px solid #ffcb05;
+  padding: 20px; 
+  text-align: left; 
+  font-size: 1.2rem; 
+}
+.course-grid-item li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 1rem 0px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.9rem;
+}
+.course-grid-item li img {
+  height: 100%;
+}
+.course-grid-item h3 {
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Bold', sans-serif;
+  line-height: 150%;
+}
+.course-grid-item h4 {
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffcb05;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+}
 
 
 
@@ -1000,6 +1236,9 @@ section {
         display: none;
       }
 
+      p{
+        text-align: left;
+      }
 
       .desktopMenu {
         display: none;
@@ -1155,7 +1394,21 @@ section {
     width: 100%;
     height: 100%;
   }
+  .what-we-do-points {
+    padding: 3rem;
+  }
+  .rectangle a{
+    font-size: 1rem;
+  }
+  .rectangleDiv li{
+    padding: 1rem;
+  }
 
+  .course-grid-section {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+  
 }
 
  /* Tablets in portrait mode / */
@@ -1290,6 +1543,9 @@ section {
     }
 
 
+    .what-we-do-points{
+      padding: 3rem 15rem;
+    }
 }
 
 /********** Small mobiles ****************/

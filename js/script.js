@@ -53,6 +53,14 @@ $(document).ready(function() {
   
   
 
+  $('.rectangle').click(function(){
+    var selectedId = $(this).data('id');
+    $('.rectangle').removeClass('active-rectangle');
+    $(this).addClass('active-rectangle');
+    $('.rectangle-visible-section').slideUp(400);
+    $(`#${selectedId}`).slideDown(400);
+  });
+
 
   $('[data-toggle="slide-collapse"]').on('click', function() {
     $navMenuCont = $($(this).data('target'));
@@ -69,12 +77,12 @@ $(document).ready(function() {
   
 
    $('.first').owlCarousel({
-    // loop:true,
-    // // margin:10,
-    // nav:true,
-    // navText :false,
-    // dots:true,
-    // autoplay:true,
+    loop:true,
+    // margin:10,
+    nav:true,
+    navText :false,
+    dots:true,
+    autoplay:true,
     autoplayTimeout: 4000,
     smartSpeed: 2000, 
     responsive:{
