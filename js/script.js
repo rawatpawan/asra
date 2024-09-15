@@ -51,6 +51,16 @@ $(document).ready(function() {
   
   });
   
+  window.onscroll = function() {
+    var navbar = document.querySelector('.desktopMenu');
+    var sticky = navbar.offsetTop;
+  
+    if (window.pageYOffset > sticky) {
+      navbar.classList.add('fixed-nav');
+    } else {
+      navbar.classList.remove('fixed-nav');
+    }
+  };
   
 
   $('.rectangle').click(function(){
@@ -102,16 +112,17 @@ $(document).ready(function() {
 });
 
 $('.third').owlCarousel({
-  // loop:true,
-  // margin:10,
-  nav: true,
+  loop:true,
+  items: 3,
+  margin:50,
+  nav: false,
   navText: [
   '<i class="fa fa-solid fa-arrow-left"></i>',
   '<i class="fa fa-solid fa-arrow-right"></i>'
   ],
   dots:false,
-  // autoplay:true,
-  autoplayTimeout: 1500,
+  autoplay:true,
+  autoplayTimeout: 2500,
   smartSpeed: 1000, 
   responsive:{
       0:{

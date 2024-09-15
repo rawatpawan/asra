@@ -47,7 +47,6 @@
              <li><a href="">gallery</a></li>
              <li><a href="">In the news</a></li>
              <li><a href="">blog</a></li>
-             <li><a href="contact-us.html">Contact Us</a></li>
            </ul>
           </div>
      </div>
@@ -55,16 +54,28 @@
         
         <nav class="navbar belowheader">
               <div class="container-fluid">
-                  <a href="index.html"><img src="./images/logo.png" alt="" class="websiteLogo"></a>
+                  <a href="index.html"><img src="./images/logo-white.png" alt="" class="websiteLogo"></a>
   
-                  <ul>
-                    <li><a href="about-us.html">who we are</a></li>
-                    <li><a href="what-we-do.html">what we do</a></li>
+                  <ul class="deskbelhed">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">who we are</a>
+                        <ul class="dropdown-menu">
+                            <li class="mb-3"><a href="about-us.html">About ASRA</a></li>
+                            <li class="mb-3"><a href="service2.html">About Patrons</a></li>
+                        </ul>
+                    </li>
+  
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">what we do</a>
+                      <ul class="dropdown-menu">
+                          <li class="mb-3"><a href="what-we-do.html">AIRTC</a></li>
+                          <li class="mb-3"><a href="service2.html">Medical facilities</a></li>
+                      </ul>
+                  </li>
                     <li><a href="">success story</a></li>
                     <li><a href="courses.html">our courses</a></li>
                     <li><a href="get-involved.html">get involved</a></li>
-                    <li><a href=""><img src="images/icons/search.png""></a></li>
-                    <li><a href=""><img src="images/icons/hambburger.png""></a></li>
+                    <li><a href="contact-us.html" class="callToAction">Contact Us</a></li>
                   </ul>
               </div>
         </nav>
@@ -81,7 +92,7 @@
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <a class="navbar-brand me-auto" href="./index.html">
-          <a href="index.html" class="smalldevice"><img src="images/logo.png" alt="Logo" class="" style="width: 40%;"></a>
+          <a href="index.html"><img src="images/logo.png" alt="Logo" class="" style="width: 40%;"></a>
         </a>
         <button class="navbar-toggler " type="button"  class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" style="border: none;">
           <img src="images/icons/hambburger.png" alt="" class="hamburderIcon" style="width: 80%;">
@@ -92,11 +103,17 @@
               <a class="nav-link " aria-current="page" href="/">Home</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="about-us.html">who we are</a>
+              <a class="nav-link " aria-current="page" href="about-us.html">About ASRA</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="">About Patrons</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="what-we-do.html">what we do</a>
+              <a class="nav-link " aria-current="page" href="what-we-do.html">AIRTC</a>
             </li>  
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="what-we-do.html">Medical facilities</a>
+            </li> 
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="/">success story</a>
             </li>  
@@ -127,6 +144,7 @@
   </div>
   
     <!---------------------------------------------- Mobile Header End --------------------------------------------------->
+  
   
 
 
@@ -168,27 +186,37 @@
             <div class="col-md-6 col-12 p-1">
                 <h2 class="aboutheading">COMPUTER COURSES</h2>
                 <div class=" p-5 ps-0 pt-3">
-                    <p class="mt-2">ASRA was founded by Vandna Mishra in 1992 with a heartfelt mission to support and uplift people with disabilities. Her journey began at the Indian Socio Institute, where she was deeply inspired by her professor, Prof. Andre Banttree. During her research and book reviews, she became increasingly aware of the challenges faced by disabled individuals.</p>
-                    <p class="mt-5">
-                        ASRA, which means "shelter" in Hindi, resonates deeply with strong emotional connotation, evoking feelings of care, protection, and safety, helping to build trust and rapport with the community and stakeholders.
+                    <p class="mt-2">A beacon of support for young girls and boys, disabled or non-disabled, coming from weaker socio-economic segments of society. Since 1996, ASRA has offered Computer courses approved by reputed government organisations such as NIELIT and NIOS. The courses offered include CCC, O-Level, web designing, desktop publishing, DCA, etc. Our courses span 3 to 12 months, covering a range of IT skills and tools essential for today's digital landscape. The structured approach of six days of classes, access to a library, regular assignments and tests, certified diplomas, professionally qualified faculty, and post-course placement guidance ensures a comprehensive learning experience.</p>
+                    <p class="mt-5" style="color: #000; font-weight: 600;">
+                     TIMMINGS
                     </p>
-                    <p class="mt-5">At Action for Self-Reliance and Alternatives (ASRA), we’re all about making life better for people with disabilities. Since 1992, we’ve been working hard in Delhi’s slums and resettlement areas to offer support and create opportunities for those who need it most.</p>
+                    <p>Batch timings: 9 a.m. to 5 p.m. (Monday to Friday) <br>
+                      Run time: 2 hours a day</p>
                 </div>
             </div>
-            <div class="col-md-6 col-12"><img src="images/aboutbackground.jpg" alt="" style="width: 100%; height: 100%;"></div>
+            <div class="col-md-6 col-12">
+              <!-- <img src="images/aboutbackground.jpg" alt="" style="width: 100%; height: 100%;"> -->
+                <div class="owl-carousel overviewSecond">
+                  <div class="item"><img src="images/_DSC0252.jpg" alt="Image 4"></div>
+                  <div class="item"><img src="images/_DSC0253.jpg" alt="Image 1"></div>
+                  <div class="item"><img src="images/_DSC0264.jpg" alt="Image 2"></div>
+                  <div class="item"><img src="images/ASRA_Voc_Computer (2).jpg" alt="Image 3"></div> 
+                  <div class="item"><img src="images/Asra_Voc_Computer (3).jpg" alt="Image 3"></div> 
+                  <div class="item"><img src="images/Asra_Voc_Computer (4).jpg" alt="Image 3"></div> 
+                  <div class="item"><img src="images/ASRA_VOC_Computer.jpg" alt="Image 3"></div> 
+              </div>
+            </div>
             </div>
         </div>
     </section>
 
     <section id="coumputercourse">
-        <div class="container pt-4 pb-4">
-          <div class="row pt-4 pb-4">
-            <div class="col-md-8 col-12 pt-4 pb-4">
+        <div class="container pt-5 pb-5">
+          <div class="row pt-5 pb-5">
+            <div class="col-md-8 col-12 pt-5 pb-5">
               <h2 class="aboutheading ">Courses Approved By</h2>
-              <p style="color: #000; font-size:2rem">NIELIT-'O' Level & 'CCC'</p>
-              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-              <p style="color: #000; font-size:2rem">NIOS - Desktop Publishing & Web Designing</p>
-              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+              <!-- <p style="color: #000; font-size:2rem">NIELIT-'O' Level & 'CCC'</p>
+              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p> -->
           
             </div>
           </div>
@@ -239,7 +267,7 @@
           <div class="row pt-5 pb-5">
             <div class="col-md-8 col-12 pt-5 pb-5">
               <h2 class="aboutheading ">Other professional courses</h2>
-              <p style="color: #000;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+              <!-- <p style="color: #000;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p> -->
           
             </div>
           </div>
@@ -314,14 +342,25 @@
               <h2 class="aboutheading">TAILORING AND  <br>
                 HANDICRAFT COURSES</h2>
               <div class=" p-5 ps-0 pt-3">
-                  <p class="mt-2">ASRA was founded by Vandna Mishra in 1992 with a heartfelt mission to support and uplift people with disabilities. Her journey began at the Indian Socio Institute, where she was deeply inspired by her professor, Prof. Andre Banttree. During her research and book reviews, she became increasingly aware of the challenges faced by disabled individuals</p>
-                  <p class="mt-5">
-                    ASRA, which means "shelter" in Hindi, resonates deeply with strong emotional connotation, evoking feelings of care, protection, and safety, helping to build trust and rapport with the community and stakeholders.
-                  </p>
-                  <p class="mt-5">At Action for Self-Reliance and Alternatives (ASRA), we’re all about making life better for people with disabilities. Since 1992, we’ve been working hard in Delhi’s slums and resettlement areas to offer support and create opportunities for those who need it most.</p>
+                  <p class="mt-2">In India, tailoring is considered important due to the diligence it adds to one’s life skill set. To promote self-confidence and an eagerness to be independent, ASRA initiated the course of cutting and tailoring, especially for women who want to have their earnings. This course is approved by Government organisations like (NIOS) - Certificate in Cutting, Tailoring & Dress Making (1 Year), Certificate in Cutting & Tailoring (6 Months). Each batch can accommodate about 10 -15 students. ASRA classes are held in fully air-conditioned classrooms with each student being equipped with personal machines. On successful completion, students are awarded a Certificate or a Diploma depending on the course duration.</p>
+                  <p class="mt-5" style="color: #000; font-weight: 600;">
+                    TIMMINGS
+                   </p>
+                   <p>First batch: 11:00 AM to 1:00 PM  <br>
+                    Second batch: 1:30 PM to 3:00 PM    <br>       
+                    Third batch: 3:00 PM to 5:00 PM <br>
+                    </p>
               </div>
             </div>
-            <div class="col-md-6 col-12"><img src="images/get-involvebackground.jpg" alt="" style="width: 100%; height: 100%;"></div>
+            <div class="col-md-6 col-12">
+              <div class="owl-carousel overviewSecond">
+                <div class="item"><img src="images/get-involvebackground.jpg" alt="Image 4"></div>
+                <div class="item"><img src="images/_DSC0231.jpg" alt="Image 1"></div>
+                <div class="item"><img src="images/_DSC0242.jpg" alt="Image 2"></div>
+                <div class="item"><img src="images/ASRA_Voc_Tailoring (3).jpg" alt="Image 3"></div> 
+                <div class="item"><img src="images/ASRA_Voc_Tailoring.jpg" alt="Image 3"></div> 
+            </div>
+            </div>
           </div>
         </div>
       </section>
@@ -330,60 +369,35 @@
       <section id="tailoring">
         <div class="container pt-5 pb-5">
           <div class="row pt-5 pb-5">
-            <div class="col-md-8 col-12 pt-5 pb-5">
+            <div class="col-md-8 col-12 pt-5">
               <h2 class="aboutheading ">Govt. Approved Courses (NIOS)</h2>
-              <p style="color: #000; margin-top: 1rem;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+             <div class="mt-5">
+                <p style="color: #000; font-size: 2rem; margin-bottom: 0px;">Cutting, Tailoring & Dress Making</p>
+                <p >Duration: 1 year</p>
+             </div>
           
+             <div class="mt-3">
+                <p style="color: #000; font-size: 2rem; margin-bottom: 0px;">Certificate in Dress Making</p>
+                <p >Duration: 6 months</p>
+            </div>
+
+                <div class="mt-3">
+                  <p style="color: #000; font-size: 2rem; margin-bottom: 0px;">Certificate in Cutting and Tailoring</p>
+                  <p >Duration: 6 months</p>
+              </div>
             </div>
           </div>
         </div>
       
       </section>
       
+
       <section>
-          <div class="container what-we-do-points">
-              <div class="row mt-4">
-                  <div class="col-md-9 col-6">
-                      <ul>
-                          <li><img src="images/icons/bulletspoint.png" alt="" class="me-2">Cutting, Tailoring & Dress Making</li>
-                      </ul>
-                  </div>
-      
-                  <div class="col-md-3 col-6">
-                      <ul >
-                          <li>Duration: 1 year</li>
-                      </ul>
-                  </div>
-
-                  <div class="col-md-9 col-6">
-                    <ul>
-                        <li><img src="images/icons/bulletspoint.png" alt="" class="me-2">Certificate in Dress Making	</li>
-                    </ul>
-                </div>
-    
-                <div class="col-md-3 col-6">
-                    <ul >
-                        <li>Duration: 6 months</li>
-                    </ul>
-                </div>
-                <div class="col-md-9 col-6">
-                    <ul>
-                        <li><img src="images/icons/bulletspoint.png" alt="" class="me-2">Certificate in Cutting and Tailoring	</li>
-                    </ul>
-                </div>
-    
-                <div class="col-md-3 col-6">
-                    <ul >
-                        <li>Duration: 6 months</li>
-                    </ul>
-                </div>
-              </div>
-          </div>
-      </section>
-
-      <section style="padding-top: 0px;">
         <div class="container what-we-do-points">
-            <h3>Other Professional Courses</h3>
+            <div class="row">
+              <div class="col-md-9 col-6"><h3>Other Professional Courses</h3></div>
+              <div class="col-md-3 col-6"> <h3>Duration</h3></div>
+            </div>
             <div class="row mt-4">
                 <div class="col-md-9 col-6">
                     <ul>
@@ -393,7 +407,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 1 year</li>
+                        <li>1 year</li>
                     </ul>
                 </div>
                 <div class="col-md-9 col-6">
@@ -404,7 +418,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 1 year</li>
+                        <li>1 year</li>
                     </ul>
                 </div>
 
@@ -416,7 +430,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 6 months</li>
+                        <li>6 months</li>
                     </ul>
                 </div>
 
@@ -428,7 +442,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 6 months</li>
+                        <li>6 months</li>
                     </ul>
                 </div>
                 <div class="col-md-9 col-6">
@@ -439,7 +453,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 3 months</li>
+                        <li>3 months</li>
                     </ul>
                 </div>
                 <div class="col-md-9 col-6">
@@ -450,7 +464,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 3 months</li>
+                        <li>3 months</li>
                     </ul>
                 </div>
                 <div class="col-md-9 col-6">
@@ -461,7 +475,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 1 months</li>
+                        <li>1 months</li>
                     </ul>
                 </div>
                 <div class="col-md-9 col-6">
@@ -472,7 +486,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 3 months</li>
+                        <li>3 months</li>
                     </ul>
                 </div>
             </div>
@@ -491,14 +505,26 @@
             <div class="col-md-6 col-12 p-1">
               <h2 class="aboutheading">BEAUTY CULTURE COURSES</h2>
               <div class=" p-5 ps-0 pt-3">
-                  <p class="mt-2">ASRA was founded by Vandna Mishra in 1992 with a heartfelt mission to support and uplift people with disabilities. Her journey began at the Indian Socio Institute, where she was deeply inspired by her professor, Prof. Andre Banttree. During her research and book reviews, she became increasingly aware of the challenges faced by disabled individuals</p>
-                  <p class="mt-5">
-                    ASRA, which means "shelter" in Hindi, resonates deeply with strong emotional connotation, evoking feelings of care, protection, and safety, helping to build trust and rapport with the community and stakeholders.
-                  </p>
-                  <p class="mt-5">At Action for Self-Reliance and Alternatives (ASRA), we’re all about making life better for people with disabilities. Since 1992, we’ve been working hard in Delhi’s slums and resettlement areas to offer support and create opportunities for those who need it most.</p>
+                  <p class="mt-2">After launching the computer and tailoring course, ASRA started to get a lot of queries for the beauty course as well. Young women from the locality wanted to explore the option of starting their parlours. That’s when in October 2008, Beauty Culture Courses was introduced as a part of ASRA.
+                  </p><p class="mt-2"> A maximum of 10 students are taught per batch so that each student gets quality learning and attention. From holding the brush to the product application, the students can learn all the basics, grow as individuals, and build one's skills with the beauty department.
+                    </p>
+                  <p class="mt-5" style="color: #000; font-weight: 600;">
+                    TIMMINGS
+                   </p>
+                   <p>Batch timings: 9 a.m. to 11 a.m. (Monday to Friday) <br>
+                    Run time: 2 hours a day
+                    </p>
               </div>
             </div>
-            <div class="col-md-6 col-12"><img src="images/beautiy-course.jpg" alt="" style="width: 100%; height: 100%;"></div>
+            <div class="col-md-6 col-12">
+              <div class="owl-carousel overviewSecond">
+                <div class="item"><img src="images/beautiy-course.jpg" alt="Image 4"></div>
+                <div class="item"><img src="images/beauty.jpg" alt="Image 1"></div>
+                <div class="item"><img src="images/beauty2.jpg" alt="Image 2"></div>
+                <div class="item"><img src="images/beauty3.jpg" alt="Image 3"></div> 
+                <div class="item"><img src="images/beauty4.jpg" alt="Image 3"></div> 
+            </div>
+            </div>
           </div>
         </div>
       </section>
@@ -509,35 +535,24 @@
           <div class="row pt-5 pb-5">
             <div class="col-md-8 col-12 pt-5 pb-5">
               <h2 class="aboutheading ">Govt. Approved Courses (NIOS)</h2>
-              <p style="color: #000; margin-top: 1rem;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+              <div class="mt-5">
+                <p style="color: #000; font-size: 2rem; margin-bottom: 0px;">Certificate in Beauty Culture and Hair Care</p>
+                <p >Duration: 6 months</p>
+             </div>
           
             </div>
           </div>
         </div>
       
       </section>
-      
-      <section>
-          <div class="container what-we-do-points">
-              <div class="row mt-4">
-                  <div class="col-md-9 col-6">
-                      <ul>
-                          <li><img src="images/icons/bulletspoint.png" alt="" class="me-2">Certificate in Beauty Culture and Hair Care	</li>
-                      </ul>
-                  </div>
-      
-                  <div class="col-md-3 col-6">
-                      <ul >
-                          <li>Duration: 6 months</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </section>
 
-      <section style="padding-top: 0px;">
+
+      <section>
         <div class="container what-we-do-points">
-            <h3>Other Professional Courses</h3>
+          <div class="row">
+            <div class="col-md-9 col-6"><h3>Other Professional Courses</h3></div>
+            <div class="col-md-3 col-6"> <h3>Duration</h3></div>
+          </div>
             <div class="row mt-4">
                 <div class="col-md-9 col-6">
                     <ul>
@@ -547,7 +562,7 @@
                 <div class="col-md-3 col-6">
                     <ul >
                       
-                        <li>Duration: 6 months</li>
+                        <li>6 months</li>
                     </ul>
                 </div>
 
@@ -559,7 +574,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 3 months</li>
+                        <li>3 months</li>
 
                     </ul>
                 </div>
@@ -572,7 +587,7 @@
     
                 <div class="col-md-3 col-6">
                     <ul >
-                        <li>Duration: 1 months</li>
+                        <li>1 months</li>
                     </ul>
                 </div>
             </div>
@@ -590,14 +605,21 @@
             <div class="col-md-6 col-12 p-1">
               <h2 class="aboutheading">MOBILE REPAIRING COURSE</h2>
               <div class=" p-5 ps-0 pt-3">
-                  <p class="mt-2">ASRA was founded by Vandna Mishra in 1992 with a heartfelt mission to support and uplift people with disabilities. Her journey began at the Indian Socio Institute, where she was deeply inspired by her professor, Prof. Andre Banttree. During her research and book reviews, she became increasingly aware of the challenges faced by disabled individuals</p>
-                  <p class="mt-5">
-                    ASRA, which means "shelter" in Hindi, resonates deeply with strong emotional connotation, evoking feelings of care, protection, and safety, helping to build trust and rapport with the community and stakeholders.
-                  </p>
-                  <p class="mt-5">At Action for Self-Reliance and Alternatives (ASRA), we’re all about making life better for people with disabilities. Since 1992, we’ve been working hard in Delhi’s slums and resettlement areas to offer support and create opportunities for those who need it most.</p>
+                  <p class="mt-2">The collaboration with JAN SIKSHAK SANSTHAN for the mobile repairing centre started in 2010 when 10-15 students were passionate about learning the mobile repairing course. After seeing the rising interest in students to embrace technology, ASRA established mobile repair centres in Nangli Dairy, Pappan Kalan, and Shiv Vihar in 2011. Asra has been offering a 6-month diploma course in mobile repairing, covering hardware component repairs and software installation.</p>
+                  <p class="mt-5" style="color: #000; font-weight: 600;">
+                    TIMMINGS
+                   </p>
+                   <p>Batch timings: 9 a.m. to 12 noon <br> Run time: 1.5 hours a day</p>
               </div>
             </div>
-            <div class="col-md-6 col-12"><img src="images/mobile-course.jpg" alt="" style="width: 100%; height: 100%;"></div>
+            <div class="col-md-6 col-12">
+              <div class="owl-carousel overviewSecond">
+                <div class="item"><img src="images/mobile-course.jpg" alt="Image 4"></div>
+                <div class="item"><img src="images/ASRA_Voc_Mobile (2).jpg" alt="Image 1"></div>
+                <div class="item"><img src="images/ASRA_Voc_Mobile Repairing.jpg" alt="Image 2"></div>
+                <div class="item"><img src="images/ASRA_Voc_Mobile.jpg" alt="Image 3"></div> 
+            </div>
+            </div>
           </div>
         </div>
       </section>
@@ -608,33 +630,19 @@
           <div class="row pt-5 pb-5">
             <div class="col-md-8 col-12 pt-5 pb-5">
               <h2 class="aboutheading ">Govt. Approved Courses (NIOS)</h2>
-              <p style="color: #000; margin-top: 1rem;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+              <div class="mt-5">
+                <p style="color: #000; font-size: 2rem; margin-bottom: 0px;">Course: Diploma course in Mobile Repairing</p>
+                <p >Duration: 6 months</p>
+             </div>
           
             </div>
           </div>
         </div>
       
       </section>
-      
-      <section>
-          <div class="container what-we-do-points">
-              <div class="row mt-4">
-                  <div class="col-md-9 col-6">
-                      <ul>
-                          <li><img src="images/icons/bulletspoint.png" alt="" class="me-2">Course: Diploma course in Mobile Repairing</li>
-                      </ul>
-                  </div>
-      
-                  <div class="col-md-3 col-6">
-                      <ul >
-                          <li>Duration: 6 months</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </section>
 
-      <section style="padding-top: 0px;">
+
+      <section>
         <div class="container what-we-do-points">
             <h3>Other Professional Courses</h3>
             <div class="row mt-4">
@@ -684,7 +692,7 @@
   <div class="footerheader">
     <nav class="navbar belowheader" style="background: #291770;padding: 1rem 0;">
       <div class="container-fluid">
-          <img src="./images/logo.png" alt="" class="websiteLogo">
+          <a href="index.html"><img src="./images/logo-white.png" alt="" class="websiteLogo"></a>
   
           <ul>
             <li><a href="about-us.html">Who we are</a></li>
@@ -731,12 +739,11 @@
                         <li><a href="">video</a></li>
                         <li><a href="">news</a></li>
                         <li><a href="">blog</a></li>
-                        <li><a href="contact-us.html">contact us</a></li>
                       </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-12 mb-4">
-                  <h5>ADDRESS</h5>
+                  <h5>contact us</h5>
                   <ul class="mt-4">
                     <li>
                       Address : G-1/456-457, GALI TYAGI PATTI, DALMILL ROAD, UTTAM NAGAR  NEAR UTTAM NAGAR WEST METRO STATION, PILLAR NO.683, NEW DELHI-110059
@@ -763,7 +770,7 @@
       <div class="postfooter">
           <div class="container-fluid">
               <p style="color: white;"> © Asra All Rights Reserved</p>
-              <p style="color: #03a6f5;"> Privacy policy | & Terms condtions</p>
+              <p style="color: #03a6f5;"> Privacy policy | Terms & condtions</p>
           </div>
       </div>
   </footer>
@@ -771,18 +778,7 @@
 
 
 <div class="enquirytab">
-      <div class="d-flex">
-        <ul class="firstUl">
-          <li><img src="./images/icons/notes.png" alt=""></li>
-          <li><img src="./images/icons/store.png" alt=""></li>
-          <li><img src="./images/icons/call.png" alt=""></li>
-        </ul>
-        <ul class="secondUl">
-          <li><a href=""><p>Call Back Request</p></a></li>
-          <li><a href=""><p>Brand Showroom locator</p></a></li>
-          <li><a href=""><p>Need a Help</p></a></li>
-        </ul>
-      </div>
+      <a href="contact-us.html"><img src="images/enquiry.png" alt="" style="width: 80%; float: right;"></a>
 </div>
 
 

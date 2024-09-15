@@ -200,7 +200,7 @@ section {
     /* width: 20rem; */
     margin-top: -4rem;
 }
-.desktopMenu .navbar ul{
+.desktopMenu .navbar .deskbelhed{
   display: flex;
 }
 
@@ -264,7 +264,7 @@ section {
 .carousel-contetn-container{
   position: absolute;
   top: 58%; 
-  left: 50%; 
+  left:43%; 
   transform: translate(-50%, -50%); 
   width: 100%; 
   text-align: left; 
@@ -440,7 +440,7 @@ section {
   font-weight: 500;
 }
 #footer h5{
-  color: var(--primary-color);
+  color: #baa9ff;
   text-transform: uppercase;
   font-size: 2.115rem;
   font-weight: 700;
@@ -459,7 +459,8 @@ section {
   justify-content: center;
 }
 .logos img{
-  width: 85%;
+  width: 40px;
+  margin-right: 1rem;
 }
 .footerborder{
     width: 90%;
@@ -514,11 +515,10 @@ section {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  right: -25rem; 
   transition: right 0.9s;
  
 }
-.enquirytab:hover {
+/* .enquirytab:hover {
   right: 0;
 }
 .enquirytab ul li {
@@ -533,7 +533,7 @@ section {
 .enquirytab .secondUl{
   background: #ffffff;
   padding: 1rem 2rem;
-}
+} */
 .button-wrapper {
   display: flex;
   align-items: center;
@@ -980,11 +980,16 @@ section {
 }
 
 #impactinvolve{
-  background: url('../images/impactinvolve.jpg');
+  background: url('../images/impactinvolve2.jpg');
   background-position: center center;
   background-size: cover;
 }
-
+#impactinvolve2{
+  background: url('../images/airtcbanner.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+/* airtcbanner.jpg */
 #careerForm{
   background: #f1f2f2;
 }
@@ -1051,14 +1056,14 @@ section {
 }
 
 .what-we-do-points{
-  background: var(--primary-color);
-  border: 5px solid #ffcb05;
+  background: #f1f2f2;
+  border: 2px solid var(--primary-color);
   padding: 3rem 15rem;
 }
 .what-we-do-points h3{
   text-align: left;
   text-transform: uppercase;
-  color: #ffcb05;
+  color: var(--primary-color);
   font-size: 2.5rem;
   font-family: 'Montserrat Bold', sans-serif;
   line-height: 150%;
@@ -1071,10 +1076,11 @@ section {
 .what-we-do-points li{
 
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   padding: 1rem 0px;
   display: flex;
   align-items: center;
+  color: #000000;
 
 }
 .what-we-do-points li img{
@@ -1165,7 +1171,7 @@ section {
 }
 
 #coumputercourse{
-  background: url('../images/coumputercourse.jpg');
+  background: url('../images/CourseBanner1.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1179,8 +1185,8 @@ section {
 }
 
 .course-grid-item {
-  background: var(--primary-color);
-  border: 5px solid #ffcb05;
+  background: #f1f2f2;
+  border: 2px solid var(--primary-color);
   padding: 20px; 
   text-align: left; 
   font-size: 1.2rem; 
@@ -1191,7 +1197,7 @@ section {
   padding: 1rem 0px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.9rem;
 }
 .course-grid-item li img {
@@ -1200,7 +1206,7 @@ section {
 .course-grid-item h3 {
   text-align: left;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--primary-color);
   font-size: 2.5rem;
   font-family: 'Montserrat Bold', sans-serif;
   line-height: 150%;
@@ -1208,13 +1214,13 @@ section {
 .course-grid-item h4 {
   text-align: left;
   text-transform: uppercase;
-  color: #ffcb05;
+  color: var(--primary-color);
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 #coumputercourse2{
-  background: url('../images/coumputercourse2.jpg');
+  background: url('../images/CourseBanner2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1227,7 +1233,7 @@ section {
   background-size: cover;
 }
 #beautytraining{
-  background: url('../images/beautytraining.jpg');
+  background: url('../images/beautybanner.jpg');
   background-position: center center;
   background-size: cover;
 }
@@ -1236,6 +1242,76 @@ section {
   background-position: center center;
   background-size: cover;
 }
+
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; 
+  /* background-color: rgb(0, 0, 0);  */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.desktopMenu {
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.callToAction{
+  background-color: var(--primary-button);
+  border-radius: 10px;
+  border: 1px solid var(--primary-button);
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.callToAction:hover{
+  background: transparent;
+  border-color: #ffffff;
+}
+
+.deskbelhed li{
+  display: flex;
+}
+.desktopMenu .dropdown-menu{
+
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+/* Hide dropdown by default */
+.dropdown-menu {
+  /* display: none; */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem !important;
+}
+
+/* Show dropdown on hover */
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.overviewSecond {
+  width: 90%;
+  float: right; 
+
+}
+.overviewFirst {
+  width: 90%;
+  float: left; 
+
+}
+
+#aboutsecondsection .overviewSecond {
+  width: 100%;
+  float: left; 
+}
+
+
 
 
 
@@ -1431,7 +1507,9 @@ section {
     grid-template-columns: 1fr; 
     gap: 20px; 
   }
-  
+  .carousel-contetn-container{
+    left: 50%;
+  }
 }
 
  /* Tablets in portrait mode / */
@@ -1496,6 +1574,9 @@ section {
         .innervismis {
           width: 49%;
         }
+        .carousel-contetn-container{
+          left: 50%;
+        }
 }
 
 /* / Tablets in landscape mode and small desktops / */
@@ -1515,6 +1596,9 @@ section {
       .innervismis {
         width: 49%;
       }
+      .carousel-contetn-container{
+        left: 48%;
+      }
       
 }
 /* / Standard desktops and laptops / */
@@ -1532,6 +1616,9 @@ section {
     }
     .innervismis {
       width: 49%;
+    }
+    .carousel-contetn-container{
+      left: 44%;
     }
 }
 /* / Large screens and high-resolution displays / */
