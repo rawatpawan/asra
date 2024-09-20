@@ -1322,8 +1322,32 @@ section {
   height: 42.3rem;
 }
 
+.tesimonialCard p{
+  text-align: left;
+}
 
+#gallerySection .aimidivcarousel {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.35);
+ 
+}
+#gallerySection .row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+#gallerySection .col-md-3 {
+  display: flex;
+}
+
+#gallerySection .aimidivcarousel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#gallerySection .aimidivcarousel .img-thumbnail{
+  width: 100%;
+  height: 25rem;
+}
 /*************************************responsive website layout start  ***************************************/
 
  /* Small screens, such as smartphones / */
