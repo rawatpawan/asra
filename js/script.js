@@ -51,16 +51,16 @@ $(document).ready(function() {
   
   });
   
-  window.onscroll = function() {
-    var navbar = document.querySelector('.desktopMenu');
-    var sticky = navbar.offsetTop;
+  // window.onscroll = function() {
+  //   var navbar = document.querySelector('.desktopMenu');
+  //   var sticky = navbar.offsetTop + 200;
   
-    if (window.pageYOffset > sticky) {
-      navbar.classList.add('fixed-nav');
-    } else {
-      navbar.classList.remove('fixed-nav');
-    }
-  };
+  //   if (window.pageYOffset > sticky) {
+  //     navbar.classList.add('fixed-nav');
+  //   } else {
+  //     navbar.classList.remove('fixed-nav');
+  //   }
+  // };
   
 
   $('.rectangle').click(function(){
