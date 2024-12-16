@@ -200,7 +200,7 @@ $('.two').owlCarousel({
         ],
         dots:false,
         autoplay:true,
-        autoplayTimeout: 1500,  
+        autoplayTimeout: 2500,  
         smartSpeed: 1000,
         responsive:{
           0: {
